@@ -27,15 +27,6 @@ function addLogin(allLogins, login) {
   let message = '';
   // Write code under this line
 
-  // if (isLoginValid(login) && isLoginUnique(allLogins, login)) {
-  //   logins.push(login);
-  //   return (message = SUCCESS);
-  // } else if (isLoginValid(login) === false) {
-  //   return (message = ERROR);
-  // } else if (isLoginUnique(allLogins, login) === false) {
-  //   return (message = REFUSAL);
-  // }
-
   if (isLoginValid(login) === false) {
     return (message = ERROR);
   } else if (isLoginUnique(allLogins, login) === false) {
